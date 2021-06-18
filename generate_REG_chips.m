@@ -17,7 +17,7 @@
 %Run. The program will save a .tif on your desktop of the generated circle.
 
 %% Code to execute the function. Fill in the first three lines to set desired conditions for the image. 
-REG = 01; %This is the regularity we want to generate
+REG = 0.1; %This is the regularity we want to generate
 var = 0.09; %variance of regularities between rows
 %chips in previous papers were 2.5 cm = 0.984 inches. 600 dpi x 0.984
 %inches = 590 pixel image
